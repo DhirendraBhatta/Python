@@ -1,0 +1,15 @@
+import random
+comp_inp = random.randint(1,3)
+user_inp = int(input('Enter 1 for rock,2 for paper and 3 for scissor  '))
+inp_dir = {1:'ROCK', 2:'PAPER', 3:'SCISSOR'}
+while user_inp not in [1,2,3]:
+    user_inp = int(input('Enter 1 for rock,2 for paper and 3 for scissor  '))
+winning_comb = [(2, 1), (3, 2), (1, 3)]
+print('USER SELECTED:', inp_dir[user_inp],'\nCOMPUTER SELECTED:',inp_dir[comp_inp])
+if comp_inp == user_inp:
+   print("Computer and User both entered the same value.Hence it's draw.")
+elif (user_inp,comp_inp) in winning_comb:
+    print('User Wins')
+else:
+    print('Computer Wins')
+v
