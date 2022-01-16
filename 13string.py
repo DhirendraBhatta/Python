@@ -1,9 +1,6 @@
 #Input command also returns the string while doing concatenation.Type conversion needed for int and float.
 # first='5'
 # second='6'
-# first=input('Enter first number ')
-# second=input('Enter second number ')
-
 first=input('Enter first number ')
 second=input('Enter second number ')
 #This input command concatenates or joins the two numbers as a string character(IF first=5,second=6 then, result=56)
