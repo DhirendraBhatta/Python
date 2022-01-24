@@ -1,0 +1,9 @@
+name=['Dhirendra','Bhatta','Sujal','Sulav','Menaka']
+print(len(name))
+name.insert(0,'Hello')
+print(name)
+name.sort()
+print(name)
+#cast=name[1:3]
+#print(cast)
+print(name[:4])
