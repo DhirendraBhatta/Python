@@ -1,0 +1,12 @@
+python manage.py runserver --> to run the server or browser 
+python manage.py make migrations -->> some changes may happen
+python manage.py migrate --> default tables created in database
+python manage.py createsuperuser---creates super user
+
+http://127.0.0.1:8000/admin/
+dhirendra --> dhiru123
+
+Paste this code in Project's URL.py to delete django administration and change the text inside ""
+admin.site.site_header = "UMSRA Admin"
+admin.site.site_title = "UMSRA Admin Portal"
+admin.site.index_title = "Welcome to UMSRA Researcher Portal"
