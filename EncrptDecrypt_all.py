@@ -1,6 +1,3 @@
-from lib2to3.pygram import Symbols
-
-
 def machine():
     keys =  "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 @#$%?^&*()/_+{<}/\>.,;'[]\:! |"
     #! won't be in the beginning otherwise it is replacing with pipe sign |
